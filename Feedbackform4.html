@@ -1,0 +1,86 @@
+<!-- html document with html form of poll question -->
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>
+
+            Poll Question
+
+        </title>
+ <style>
+     body {
+	 background-image: url("background.jpg");	 
+	 background-repeat:no-repeat;
+     background-attachment: fixed;  
+     background-size: cover;
+	 margin-left: 150px;
+     }
+	 h1{
+	 background-color: black;
+	 color:white;
+	 }
+	 p{
+	 color:white;
+	 }
+
+
+    </style>
+    </head>
+
+    <body>
+
+        <form action="/form" method="POST">
+
+            <h1>
+
+                This page will consist of True or False and also neither.
+
+            </h1>
+
+            <h2>
+
+            Do you think Nodeflux 100% follow the saying "Extend Beyond Imagination"?
+
+            </h2>
+
+            <br>
+
+            <div>
+
+                <input type="radio" name="q1" value="Yes" required> True
+
+            </div>
+
+            <div>
+
+                <input type="radio" name="q1" value="No" required> False
+
+            </div>
+
+            <div>
+
+                <input type="radio" name="q1" value="Not sure" required> Neither
+
+            </div>
+
+            <br>
+
+           
+
+        </form>
+		<textarea name="comments" rows="5" cols="40"></textarea>
+	<br><h3>If False, what changes does Nodeflux need to implement?</h3></br>
+    	<textarea name="comments" rows="5" cols="40"></textarea>
+	<br><h3>If neither, Tell me how many percentage does Nodeflux's follow?</h3></br>
+	 <input type="submit" value="send your answer">
+	 <h2>This part will help you in making sure whether you are satisfied with the given saying or not</h2>
+               <a href="feedbackform5.html">next page</a></li>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rating</title>
+	<!--  Gives the title of the website
+--> 
+    <link rel="stylesheet" href="a.css">
+    <style>
+    body {
+	background-image: url("ratestar.png"); 
+	background-repeat:no-repeat;
+    background-position: right top;
+    margin-right: 150px;
+    background-color: yellow;	
+     }
+	 h1{
+	 color:Black;
+	 }
+	 h2{
+	 background-color:gray;
+	 color:georgian:
+	 }
+	 
+#bigstar {
+    font-size: 150%;
+    color: orange;
+}
+
+#star {
+    font-size: 150%;
+    color: gray;
+	
+    </style>
+        
+</head>
+
+<body>
+<br><h1>This will be the first page of the feedback. This page consists of a star rating from 5(Excellent) to number 1(Poor).</h1></br><p><br><b>Note:</b> After you give it a rating, there will be a fill in box where you can feel in information on why you use the following rate</p></br>
+    <h2>
+        How was your first experience in working in Nodeflux?
+    </h2>
+	<!--  This part creates the span or some kind of higlight on what the star would look like as well as specify in text each meanings to it.
+--> 
+    <input type="radio" name="rating" value="5" checked>
+    <span id="bigstar">&bigstar;</span>
+    <span id="bigstar">&bigstar;</span> 
+    <span id="bigstar">&bigstar;</span>
+    <span id="bigstar">&bigstar;</span>
+    <span id="bigstar">&bigstar;</span>
+    <h3>Excellent: I would definitely work in Nodeflux.</h3>
+    <br>
+    <input type="radio" name="rating" value="4" unchecked>
+    <span id="bigstar">&bigstar;</span>
+    <span id="bigstar">&bigstar;</span>
+    <span id="bigstar">&bigstar;</span>
+    <span id="bigstar">&bigstar;</span>
+    <span id="star">&star;</span>
+	<h3>Very Good: I would most certainly work in Nodeflux</h3>
+    <br>
+    <input type="radio" name="rating" value="3" unchecked>
+    <span id="bigstar">&bigstar;</span>
+    <span id="bigstar">&bigstar;</span>
+    <span id="bigstar">&bigstar;</span>
+    <span id="star">&star;</span>
+    <span id="star">&star;</span>
+	<h3>Good: I would certainly work in Nodeflux</h3>
+    <br>
+    <input type="radio" name="rating" value="2" unchecked>
+    <span id="bigstar">&bigstar;</span>
+    <span id="bigstar">&bigstar;</span>
+    <span id="star">&star;</span>
+    <span id="star">&star;</span>
+    <span id="star">&star;</span>
+	<h3>Bad: I could work there but there is room for improvement.</h3>
+    <br>
+    <input type="radio" name="rating" value="1" unchecked>
+    <span id="bigstar">&bigstar;</span>
+    <span id="star">&star;</span>
+    <span id="star">&star;</span>
+    <span id="star">&star;</span>
+    <span id="star">&star;</span>
+<h3>Poor: I would discourage others from Nodeflux.</h3>
+    <br>
+    <p>
+        How was your first experience in working in Nodeflux?
+    </p>
+<!-- Now that you have rated your experience this part will help you provide yourself with additional information basically letting you guys have the time to fill out on why you use to rate it.
+--> 
+    <textarea name="comments" rows="5" cols="40"></textarea>
+	Additional Information
+    <br>
+    <br>
+    <button>Submit</button>
+    <a href="feedbackform2.html">next page</a></li>
+
+	<img src="feedbck.jpg" alt="Flowers in Chania" width="460" height="345">
+    <br>
+    <br>
+  
+</body>
+</html>
